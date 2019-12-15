@@ -27,5 +27,5 @@ macro_rules! console_log {
 #[wasm_bindgen]
 pub fn greet() {
     alert("Hello, {{project-name}}!");
-    console_log!("hi {{project-name}");
+    console_log!("hi {{project-name}}");
 }
