@@ -11,5 +11,15 @@ $  cargo generate --git https://github.com/poccariswet/rust-wasm-template-withou
 - build
 
 ```
+$ make build
+```
+or
+```
 $ wasm-pack build --target web
+```
+
+- for hosting
+
+```
+$ make build-hosting
 ```
