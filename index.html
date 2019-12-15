@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="module">
+      import { greet, default as init } from './pkg/{{project-name}}.js';
+        async function run() {
+          await init('./pkg/{{project-name}}.wasm');
+          greet();
+        }
+        run();
+    </script>
+    <h1>rust-wasm-template-without-bundler</h1>
+  </body>
+</html>
