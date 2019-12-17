@@ -8,7 +8,7 @@
     <script type="module">
       import { greet, default as init } from './pkg/{{project-name}}.js';
         async function run() {
-          await init('./pkg/{{project-name}}.wasm');
+          await init('./pkg/{{project-name}}_bg.wasm');
           greet();
         }
         run();
