@@ -9,3 +9,6 @@ build-hosting:
 	mkdir dist/pkg
 	cp pkg/{{project-name}}.js dist/pkg
 	cp pkg/{{project-name}}.wasm dist/pkg
+
+start:
+	python3 -m http.server

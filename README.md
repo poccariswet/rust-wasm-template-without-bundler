@@ -18,6 +18,11 @@ or
 $ wasm-pack build --target web
 ```
 
+- run serve
+```
+$ make start
+```
+
 - for hosting
 
 ```
