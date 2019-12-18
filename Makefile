@@ -8,7 +8,7 @@ build-hosting:
 	cp index.html dist
 	mkdir dist/pkg
 	cp pkg/{{project-name}}.js dist/pkg
-	cp pkg/{{project-name}}.wasm dist/pkg
+	cp pkg/{{project-name}}_bg.wasm dist/pkg
 
 start:
 	python3 -m http.server
